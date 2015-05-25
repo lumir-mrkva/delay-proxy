@@ -11,6 +11,8 @@ var server = http.createServer(function(req, res) {
   if (url) {
     tokens = url.split('/');
     tokens.shift();
+    tokens.shift();
+    req.url = '/' + tokens.join('/');
     delay = parseInt(tokens.shift()) || delay;
     if (delay) {
       req.url = '/' + tokens.join('/');
