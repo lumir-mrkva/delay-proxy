@@ -1,0 +1,15 @@
+{
+  "name": "delay-proxy",
+  "version": "1.0.0",
+  "description": "proxy server with response delay for debugging web applications",
+  "main": "delay-proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrq",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.11.1",
+    "minimist": "^1.1.1"
+  }
+}
